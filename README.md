@@ -1,2 +1,2 @@
 # WBBU
-A Build System to compile Source Engine-based games
+A Build System to compile C++ based software
