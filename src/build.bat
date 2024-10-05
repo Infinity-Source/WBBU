@@ -13,7 +13,7 @@ if exist "%OUTPUT_FILE%" (
     del "%OUTPUT_FILE%"
 )
 echo Compiling %SOURCE_FILE%...
-%COMPILER% %CFLAGS% %SOURCE_FILE% -o %OUTPUT_FILE%
+%COMPILER% %CFLAGS% %SOURCE_FILE% -o %OUTPUT_FILE% -mwindows
 call :check_error
 echo Build complete! Executable: %OUTPUT_FILE%
 endlocal
